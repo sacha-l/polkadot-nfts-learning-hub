@@ -74,7 +74,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Workshops',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -91,8 +91,8 @@ const config = {
             title: 'Workshops',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Build a Voting Dapp',
+                to: '/docs/category/build-a-voting-dapp',
               },
             ],
           },
