@@ -2,4 +2,4 @@
 
 Voting dApp overview:
 
-![Untitled_2023-04-05_16-19-11](https://user-images.githubusercontent.com/23283108/231542080-d997a866-ba72-4b43-8c3f-8eaaa9c29482.png)
+![Untitled_2023-04-12_17-40-02](https://user-images.githubusercontent.com/23283108/231543120-6c12d655-57a0-43d5-bfa4-c0e52c4c1c02.png)
