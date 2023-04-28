@@ -4,11 +4,19 @@ OpenBrush comes with a PSP22 Wizard to easily create default PSP implementations
 
 Use the “Name” field to rename it to Staking, then paste it to replace the contents of contracts/staking/lib.rs.
 
-![Wizard](../assets/wizard-1.png)
+<img src="../assets/wizard-1.png"  width="300"> 
 
 Then, make sure to update the contract’s Cargo.toml by copying the contents provided by the PSP22 Wizard’s Cargo.toml section.
 
-![Wizard](../assets/wizard-2.png)
+<img src="../assets/wizard-2.png"  width="300"> 
+
+
+Before moving to the next step, run `cargo contract check` inside the Staking contract directory to make sure it compiles. Doesn’t compile? Check your `Cargo.toml` file is using the right dependency versions. 😀
+
+
+<!-- slide:break -->
+
+<!-- tabs:start -->
 
 > **Note**: *the tutorial assumes you’re using ink! version >= 4.1.0 and OpenBrush version >= 3.1.0. You may need to double check the Cargo.toml files have these updated before moving on.*
 
@@ -32,5 +40,4 @@ impl Staking {
 
 *File: `contracts/staking/lib.rs`. Note that we account for the decimals for denominations using `10u128.pow(18)`.*
 
-Before moving to the next step, run `cargo contract check` inside the Staking contract directory to make sure it compiles. Doesn’t compile? Check your `Cargo.toml` file is using the right dependency versions. 😀
-
+<!-- tabs:end -->

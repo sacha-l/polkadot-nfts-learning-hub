@@ -5,8 +5,6 @@ The way we’re using the PSP22 standard is much like the concept of inheritance
 - `PSP22Data` : We already have the storage item for `PSP22Data` declared in the Staking storage field, which holds all data from the standard PSP22 implementation.
 - `transfer_from` and `transfer`: We will need these when we extend our staking contract to implement `stake` and `unstake` respectively.
 
-![contract-diagram](../assets/contract-interface.png)
-
 ### Add a trait definition for Staking
 
 A common pattern in developing ink! contracts with OpenBrush is to first define your traits and then implement them in their own modules. This keeps the project organized and easy to read.
@@ -51,3 +49,11 @@ A common pattern in developing ink! contracts with OpenBrush is to first define 
     
     - `#[openbrush::wrapper]` : this provides a wrapper around the storage declaration to pass it into our ink! contract.
     - `#[openbrush::traits]`: this allows us to define a trait in a separate file that can be used by our generic Staking contract.
+
+<!-- slide:break -->
+
+<!-- tabs:start -->
+
+<img src="../assets/contract-interface.png"> 
+
+<!-- tabs:end -->
