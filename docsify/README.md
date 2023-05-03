@@ -1,6 +1,6 @@
 # Overview
 
-Welcome to the Polkadot workshops repo (under construction and _very WIP_).
+Welcome to the Polkadot workshops repo (under construction).
 
 To run the workshop in dev mode:
 
