@@ -11,3 +11,12 @@ To run the workshop in dev mode:
 ```bash
 docsify serve
 ```
+
+## Tutorials and workshops
+
+**Build a Voting dApp tutorial**
+
+Todo:
+- [X] Part 1: Staking contract
+- [] Part 2: Voting contract
+- [ ] Part 3: Build the front-end

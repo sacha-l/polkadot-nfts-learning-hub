@@ -1,15 +1,29 @@
-## Deploy your contract (optional)
+## Deploy your contract using the Contracts UI
 
-1. Build your contract using:
+Congratulations! If you've made it this far, you are ready to deploy your contract on-chain and interact with it.
+
+You could use the Cargo Contract CLI as described in the official ink! tutorials but here, you'll learn how to deploy it using the Contracts UI. You have two options, either deploy it to a local node if you have one set-up or deploy it on Rococo.
+
+1. Build your contract by typing the following command inside the `contracts/staking` directory:
     
     ```bash
     cargo contract build
     ```
-    
-2. Deploy your contract on the Contracts parachain using the [Contracts UI](https://contracts-ui.substrate.io/) (this is where you’ll need to make sure you have ROC tokens).
-3. Interact with the contract in the UI and explore the different methods provided by the PSP22 standard as well as our new Staking functions. For example, transfer some tokens to another account:
-    
-    ![Screen Shot 2023-03-31 at 3.36.18 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c069187-03f1-4b37-ba36-76c864cc9406/Screen_Shot_2023-03-31_at_3.36.18_PM.png)
-    
+1. Go to the Contracts UI and select the node you want to connect to:
 
-Great — you have the first version of your Staking contract deployed! Continue to the next part of this tutorial to create a Voting contract and write tests for your dApp. 🎉
+    <img src="../assets/contracts-ui-1.png" width="400">
+
+1. Once you're connected, select "Upload a new contract" and upload the `my_psp22.contract` file from the `/voting-dapp/target/ink/my_psp22` directory. Once you upload it, should see something like this:
+
+    <img src="../assets/contracts-ui-2.png" width="400">
+
+1. Scroll to the bottom of the page and click "Next". This will bring you to another page as shown below. Also click "Next".
+
+    <img src="../assets/contracts-ui-3.png" width="400">
+
+1. Interact with the contract using the UI and explore the different methods provided by the PSP22 standard as well as our new Staking functions.
+
+Great — you have the first version of your Staking contract deployed! Continue to the next part of this tutorial to:
+* Create a Voting contract to handle the voting logic
+* Add events
+* Write tests

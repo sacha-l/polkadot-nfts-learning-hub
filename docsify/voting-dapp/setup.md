@@ -38,7 +38,7 @@ You should now have the scaffold file structure which you’ll be using to build
 
 <!-- slide:break -->
 
-Your file structure will look like this:
+If you've correctly completed this section, your file structure will look like this:
 
 <img src="../assets/file-structure.png" width="200"> 
 

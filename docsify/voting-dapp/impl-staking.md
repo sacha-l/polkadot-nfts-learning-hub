@@ -188,10 +188,10 @@ What you've accomplished in this section is adding the implementation. But you'r
 #### **💡Code explanation**
 
 * The Staking contract data will track the amount an account has staked in our dApp, as well as a Timestamp indicating when the stake was made. 
-* All in the helper function is calculating voting power as a function the amount a user has staked and the the amount of time left a user has until they can unstake.
+* The helper function is calculating voting power as a function the amount a user has staked and the the amount of time left a user has until they can unstake.
 * Wondering how the contract locks and unlocks these tokens? Here’s where the PSP22 interface comes in handy. We’ll use the `transfer_from` function to transfer the staking amount from the caller’s account to the contract’s account ID. For unstaking, we can use the same function but the other way around.*
 
-#### **Scaffold code**
+#### **👷 Scaffold code**
 
 Use this for step 1 in `src/impls/staking.rs`:
 
@@ -219,7 +219,7 @@ where
 // Internal helpers go here
 ```
 
-#### **Final code for `src/impls/staking.rs`**
+#### **✅ Final code for `src/impls/staking.rs`**
 
 ```rust
 pub use crate::traits::staking::*;

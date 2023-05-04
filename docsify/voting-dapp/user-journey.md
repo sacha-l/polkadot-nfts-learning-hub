@@ -18,8 +18,8 @@ Let’s imagine a user, Jeremy who is eager to vote on proposals found on this v
 The rules we’ll enforce in our Staking contract logic are: 
 
 - Only 42_000_000 tokens will initially be issued
-- Users can only earn Voting Power as a function of how much they stake, following a linear decaying amount of Voting Power over time
+- Voting Power can only be earned as a function of how a user stake, following a linear decaying amount of Voting Power over time
 - Users can add stake to earn more voting power at any time
 - For any amount staked, the contract will lock those funds for another 1 month
 
-> 📝 Note that our Staking logic is very simplified — there’s a lot more you can do to improve the overall voting dApp once you get these basics down. **Please note that whatever it is you end up building in this tutorial, none of the code should be considered production ready and is only meant for educational purposes. Outside the scope of this tutorial: add inflation for token supply and allow users to chose lock-up periods to increase voting power.**
+> 📝 Note that our Staking logic is very simplified — there’s a lot more you can do to improve the overall voting dApp once you get these basics down. **Please note that whatever it is you end up building in this tutorial, none of the code should be considered production ready and is only meant for educational purposes. For example, outside the scope of this tutorial you could add inflation for token supply and allow users to chose lock-up periods to increase voting power or implement a different way for users to gain voting power to make it more decentralized.**
