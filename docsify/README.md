@@ -18,5 +18,5 @@ docsify serve
 
 Todo:
 - [X] Part 1: Staking contract
-- [] Part 2: Voting contract
+- [ ] Part 2: Voting contract
 - [ ] Part 3: Build the front-end
