@@ -1,5 +1,5 @@
 ---
-title: Watch videos
+title: 📺 Watch videos
 sidebar_position: 5
 ---
 

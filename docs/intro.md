@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Workshops
+# 🏗️ Workshops
 
 * [Build a Voting Dapp](https://sacha-l.github.io/docsify/#/voting-dapp/start)
 * [Learn NFTs on Polkadot](https://sacha-l.github.io/docsify)
