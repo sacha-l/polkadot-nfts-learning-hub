@@ -12,13 +12,12 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://sacha-l.github.io',
-  trailingSlash: false,
-  baseUrl: '/polkadot-workshops',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'sacha-l',
-  projectName: 'polkadot-workshops.github.io',
+  projectName: 'polkadot-workshops',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
