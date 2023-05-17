@@ -90,7 +90,7 @@ const config = {
             items: [
               {
                 label: 'Build a Voting Dapp',
-                to: '/docs/category/build-a-voting-dapp',
+                to: '/docs/build-a-voting-dapp',
               },
             ],
           },
