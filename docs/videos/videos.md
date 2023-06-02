@@ -1,6 +1,6 @@
 ---
 title: 📺 Watch videos
-sidebar_position: 5
+sidebar_position: 1
 ---
 
 Learn about Brushfam's tools for creating dApps written with ink!:
