@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Polakdot Workshop Series',
-  tagline: 'Just a place to stage some content under development',
+  title: 'A Learning Hub for all things NFTs on Polkadot',
+  tagline: 'Learn about how you can use Polkadot to create your own digital collections',
   favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
@@ -85,20 +85,36 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Workshops',
+            title: 'Learn about Substrate and Polkadot',
             items: [
               {
-                label: 'Build a Voting Dapp',
-                to: 'https://voting-dapp-rose.vercel.app/#/voting-dapp/start',
+                label: 'Polkadot website',
+                href: 'https://polkadot.network/',
+              },
+              {
+                label: 'Polkadot wiki',
+                href: 'https://wiki.polkadot.network/',
+              },
+              {
+                label: 'Substrate Docs',
+                href: 'https://docs.substrate.io/',
+              },
+              {
+                label: 'Substrate Github',
+                href: 'https://github.com/paritytech/substrate/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Polkadot developer community',
             items: [
               {
                 label: 'Stack Overflow',
                 href: 'https://substrate.stackexchange.com/',
+              },
+              {
+                label: 'Developer newsletter',
+                href: 'https://parity.link/HLj1a',
               },
             ],
           },
@@ -106,11 +122,11 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Twitter',
+                label: 'My Twitter',
                 href: 'https://twitter.com/SachaL__',
               },
               {
-                label: 'GitHub',
+                label: 'My GitHub',
                 href: 'https://github.com/sacha-l',
               },
             ],
