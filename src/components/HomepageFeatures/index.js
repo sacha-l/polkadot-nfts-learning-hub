@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Explore different use cases',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: 'none',
     description: (
       <>
         This learning hubs aims to be a place to explore different use cases of NFTs on Statemine, for end-users, businesses and prospective collection owners.
@@ -20,12 +20,14 @@ const FeatureList = [
         Hi my name is Sacha 👋 &mdash; I'm a Developer Advocate at Parity Technologies. I created this resource to 
         help end-users and developers learn about the different NFT capabilities on Polkadot, with a particular 
         focus on FRAME's new NFTs pallet.
+        Please note that this is a brand new resource, currently under construction. If there are any resources you'd
+        like to see or updates to existing material, please consider contributing by filing an issue here: https://github.com/sacha-l/polkadot-nfts-learning-hub/issues.
       </>
     ),
   },
   {
     title: 'Explore ways to use the NFTs pallet in your app-chain',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: 'none',
     description: (
       <>
         This learning hub also aims to be a place containing examples for runtime engineers 
