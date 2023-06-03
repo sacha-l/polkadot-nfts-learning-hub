@@ -22,10 +22,11 @@ module.exports = {
     'nfts/polkadot-nfts-101',
     'nfts/about-nfts-pallet/design-and-core-features',
     'nfts/about-nfts-pallet/settings-and-roles',
+    'nfts/about-nfts-pallet/use-cases',
     {
       type: 'category',
       label: 'Creating Collections',
-      items: ['nfts/creating-collections/use-cases', 'nfts/creating-collections/minting-items', ],
+      items: ['nfts/creating-collections/minting-items', ],
     },
   ],
 
