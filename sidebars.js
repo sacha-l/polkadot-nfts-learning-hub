@@ -21,6 +21,7 @@ module.exports = {
   tutorialSidebar: [
     'nfts/polkadot-nfts-101',
     'nfts/about-nfts-pallet/design-and-core-features',
+    'nfts/about-nfts-pallet/attribute-types',
     'nfts/about-nfts-pallet/settings-and-roles',
     'nfts/about-nfts-pallet/distribution-and-marketplaces',
     'nfts/about-nfts-pallet/use-cases',
