@@ -1,6 +1,6 @@
 ---
 title: Exploring use cases
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 Now that you've learned a little about how the NFTs pallet is designed in [Design and core features](../about-nfts-pallet/1-design-and-core-features.md), you'll probably better understand how it can provide a wide array services.
