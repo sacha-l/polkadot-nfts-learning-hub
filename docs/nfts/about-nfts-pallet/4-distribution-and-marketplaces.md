@@ -3,8 +3,6 @@ title: Distribution and marketplaces
 sidebar_position: 4
 ---
 
-## Claiming and distributing items
-
 The NFTs pallet supports popular distribution techniques designed to onboard users with more ease and efficiency, including:
 
 - The ability for a collection owner to send the items manually
@@ -14,4 +12,7 @@ The NFTs pallet supports popular distribution techniques designed to onboard use
 
 ## Integration for private marketplaces
 
-The growing number of collections reveals the need to have private marketplaces those focus on a specific type of NFT, like real estate or gaming items. Each of these marketplaces might have their own fee set and pre-approval process. The pallet is designed such that marketplaces can set the fees and manage the added collections or items.
+Collections of real estate or gaming items can have their own marketplaces that set collection-specific trading fees using the pre-approval process.
+
+For example, if you wanted to list your NFT on some marketplace, the marketplace can require to give it permission to set a trading fee for the item you list. This would be stored inside the item's attributes.
+When your NFT gets sold, the marketplace will include the fee payment as part of the sale.

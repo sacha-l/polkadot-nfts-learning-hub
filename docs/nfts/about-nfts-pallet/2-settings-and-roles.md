@@ -1,5 +1,5 @@
 ---
-title: Collection mint settings
+title: Mint settings and roles
 sidebar_position: 2
 ---
 

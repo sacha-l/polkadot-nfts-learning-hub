@@ -13,7 +13,7 @@ Substrate has a framework to make it easy to create such modules, called [FRAME]
 In FRAME, these modules are referred to as **pallets** and the amalgamation of pallets (a.k.a the business logic of a chain) is referred to as the app-chain's **runtime**.
 
 There's a [number of app-chains](https://wiki.polkadot.network/docs/learn-nft#nfts-20-nfts-in-polkadot--kusama) on Polkadot that use specialized FRAME pallets to offer NFT capabilities for their users.
-Commonly used pallets include the [Uniques pallet](https://github.com/paritytech/substrate/tree/master/frame/uniques) and the [ORML NFT pallet](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/nft), which offer basic and secure functionality for managing non-fungible assets and have been used by app-chain engineering teams as a basis to extend them and meet their user's needs.
+Commonly used pallets include the [Uniques pallet](https://github.com/paritytech/substrate/tree/master/frame/uniques) and the [ORML NFT pallet](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/nft), which offer basic and secure functionality for managing non-fungible assets and have been extended by app-chain engineering teams to meet their users' needs.
 
 **However, it became apparent that these pallets were fairly limited in functionality and weren't able to meet the emerging use cases for NFTs in the broader web3 ecosystem.** 
 
