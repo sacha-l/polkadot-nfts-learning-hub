@@ -3,7 +3,7 @@ title: Design and core features
 sidebar_position: 1
 ---
 
-At a high-level, the pallet is designed to offer all the functionality for managing NFTs you would expect such as creating a collection, minting and burning items. The current implementation extends these with features by introducing some key design decisions outlined below. These enable new services such as atomic-swapping; trading features that can be extended by marketplaces; allowing authorized accounts to set new attributes to items; and pre-signing the ability for accounts to mint from a collection.
+At a high-level, the NFTs pallet is designed to offer all the basic functionality for managing NFTs you would expect such as creating a collection, minting and burning items. This section describes the core features that extend this basic functionality which are integral to understanding how the pallet works and how it's designed to be used.
 
 ## User and system settings
 
