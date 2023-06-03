@@ -29,6 +29,10 @@ module.exports = {
       items: ['nfts/creating-collections/minting-items', ],
     },
   ],
+  videoSidebar: [
+    'nfts/videos-for-users',
+    'nfts/videos-for-devs',
+  ]
 
 };
 
