@@ -74,7 +74,6 @@ const config = {
             position: 'left',
             label: 'Workshops',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/sacha-l/polkadot-workshops',
             label: 'GitHub',
