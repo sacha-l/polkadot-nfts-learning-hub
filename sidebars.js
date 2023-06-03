@@ -26,11 +26,11 @@ module.exports = {
     'nfts/about-nfts-pallet/distribution-and-marketplaces',
     'nfts/about-nfts-pallet/use-cases',
     'nfts/for-developers',
-    {
-      type: 'category',
-      label: 'Creating Collections',
-      items: ['nfts/creating-collections/minting-items', ],
-    },
+    // {
+    //   type: 'category',
+    //   label: 'Creating Collections',
+    //   items: ['nfts/creating-collections/minting-items', ],
+    // },
   ],
   videoSidebar: [
     'nfts/videos-for-users',
