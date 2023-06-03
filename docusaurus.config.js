@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'A Learning Hub for all things NFTs on Polkadot',
-  tagline: 'Learn about how you can use Polkadot to create your own digital collections',
+  title: 'A learning hub for NFT uses cases on Polkadot',
+  tagline: 'Learn how you can use the latest NFT tech on Polkadot',
   favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
@@ -72,7 +72,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Workshops',
+            label: 'Home',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'videoSidebar',
+            position: 'left',
+            label: 'Learn with videos',
           },
           {
             href: 'https://github.com/sacha-l/polkadot-workshops',
