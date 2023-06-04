@@ -7,6 +7,8 @@ Now that you've learned a little about how the NFTs pallet is designed in [Desig
 
 In this section, we explore what the different use cases of the NFTs pallet could look like.
 
+*Please note this section is under construction. We'd love to include any use case ideas you may have. Please reach out or [open an issue](https://github.com/sacha-l/polkadot-nfts-learning-hub/issues) in this repository! 🙏*
+
 ## Atomic-swapping between item holders
 
 * An item holder can swap their item with another item holder of the same collection
