@@ -54,7 +54,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'Developer Guides',
-        description: 'Learn how to start hacking on new use cases.',
+        description: 'Start hacking on use case ideas you want to explore.',
         slug: '/developers',
       },
       items: ['guides/features', 'guides/setup'],

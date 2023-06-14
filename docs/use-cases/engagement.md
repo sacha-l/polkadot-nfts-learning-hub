@@ -1,9 +1,9 @@
 ---
-title: Engagement
+title: Customer engagement
 sidebar_position: 2
 ---
 
-Ways to think about customer engagement and pre-approvals from some issuing entity.
+Use cases for issuing entities to engage with end-users.
 
 - B2C platform wants to provide special offers to their customers who hold a particular NFT
 - Nest tokens to an event ticket for holders to spend at an event

@@ -138,7 +138,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()}`,
+        // copyright: `Copyright © ${new Date().getFullYear()}`, // update with open source license
       },
       prism: {
         theme: lightCodeTheme,

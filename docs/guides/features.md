@@ -1,5 +1,5 @@
 ---
-title: Exploring use cases
+title: Pallet features
 sidebar_position: 4
 ---
 

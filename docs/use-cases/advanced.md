@@ -3,7 +3,7 @@ title: Advanced
 sidebar_position: 4
 ---
 
-More advanced use cases native to the Polkadot ecosystem.
+More advanced cross-chain uses cases.
 
 - Store your NFT on one chain and give access to other chains to modify the attributes
 - Equip your items with services from other app-chains (e.g. identity solutions or off-chain computing services)

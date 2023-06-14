@@ -1,9 +1,9 @@
 ---
-title: Art, music, fashion
+title: Creative industries
 sidebar_position: 1
 ---
 
-Use cases for the creative industries.
+Use cases for industries such as art, music and fashion.
 
 - Creating digital art collections
 - Authenticating luxury goods

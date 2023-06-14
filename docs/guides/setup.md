@@ -9,7 +9,7 @@ You can learn more about how to use the NFTs pallet as a runtime engineer here: 
 
 ## Test out your own use cases
 
-We've created a [dedicated standalone app-chain node](https://github.com/sacha-l/substrate-nfts-node) that you can launch in your local development environment to test out the NFTs pallet. 
+We've created a [dedicated standalone app-chain node](https://parity.link/mBH6z) that you can launch in your local development environment to test out the NFTs pallet. 
 
 Clone and build it locally (must have Rust and dependencies installed):
 
