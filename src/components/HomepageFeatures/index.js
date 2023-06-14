@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: 'none',
     description: (
       <>
-        This learning hubs aims to be a place to explore different use cases of NFTs on Statemine, for end-users, businesses and prospective collection owners.
+        This learning hubs aims to be a place to explore different use cases of NFTs on Statemine and between other app-chains, for end-users, businesses and collection creators.
       </>
     ),
   },

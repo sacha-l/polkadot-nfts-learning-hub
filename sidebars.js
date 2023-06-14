@@ -19,25 +19,49 @@ module.exports = {
   // But you can create a sidebar manually
 
   tutorialSidebar: [
-    'nfts/polkadot-nfts-101',
-    'nfts/about-nfts-pallet/design-and-core-features',
-    'nfts/about-nfts-pallet/attribute-types',
-    'nfts/about-nfts-pallet/settings-and-roles',
-    'nfts/about-nfts-pallet/distribution-and-marketplaces',
-    'nfts/about-nfts-pallet/use-cases',
-    'nfts/for-developers',
-    // {
-    //   type: 'category',
-    //   label: 'Creating Collections',
-    //   items: ['nfts/creating-collections/minting-items', ],
-    // },
+    {
+      type: 'category',
+      label: 'Home',
+      link: {
+        type: 'generated-index',
+        title: 'About the NFTs pallet',
+        description: 'Learn about the NFTs pallet and how it can unlock new use cases.',
+        slug: '/',
+      },
+      items: [
+        'background',
+        'about-nfts-pallet/design-and-core-features',
+        'about-nfts-pallet/attribute-types',
+        'about-nfts-pallet/settings-and-roles',
+        'about-nfts-pallet/distribution-and-marketplaces',
+      ],
+      collapsed: false,
+    },
+    {
+      type: 'category',
+      label: 'Use cases',
+      link: {
+        type: 'generated-index',
+        title: 'Exploring use cases',
+        description: 'Explore the different use cases for the NFTs pallet on Polkadot.',
+        slug: '/use-cases',
+      },
+      items: ['use-cases/art', 'use-cases/certificates', 'use-cases/engagement', 'use-cases/advanced',],
+    },
+    {
+      type: 'category',
+      label: 'Developer Guides',
+      link: {
+        type: 'generated-index',
+        title: 'Developer Guides',
+        description: 'Learn how to start hacking on new use cases.',
+        slug: '/developers',
+      },
+      items: ['guides/features', 'guides/setup'],
+    },
   ],
   videoSidebar: [
-    'nfts/videos-for-users',
-    'nfts/videos-for-devs',
-  ]
-
+    'videos-for-users',
+    'videos-for-devs',
+  ],
 };
-
-
-

@@ -1,8 +1,7 @@
 ---
-title: 🧑‍💻 Advanced material for developers
+title: Setup your local environment
 sidebar_position: 1
 ---
-
 
 You can learn more about how to use the NFTs pallet as a runtime engineer here: https://wiki.polkadot.network/docs/learn-nft-pallets
 

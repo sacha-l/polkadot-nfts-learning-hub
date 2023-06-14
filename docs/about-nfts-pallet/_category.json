@@ -1,9 +1,10 @@
 {
     "label": "About the NFTs Pallet",
-    "position": 2,
+    "position": 1,
     "link": {
       "type": "generated-index",
       "title": "About the NFTs Pallet",
-      "description": "Learn about how the NFTs pallet is designed."
+      "description": "Learn about how the NFTs pallet is designed.",
+      "url":"/home"
     }
   }

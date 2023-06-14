@@ -5,7 +5,7 @@ sidebar_position: 4
 
 Now that you've learned a little about how the NFTs pallet is designed in [Design and core features](../about-nfts-pallet/1-design-and-core-features.md), you'll probably better understand how it can provide a wide array services.
 
-In this section, we explore what the different use cases of the NFTs pallet could look like.
+This section gives an overview of the NFTs pallet's core features.
 
 *Please note this section is under construction. We'd love to include any use case ideas you may have. Please reach out or [open an issue](https://github.com/sacha-l/polkadot-nfts-learning-hub/issues) in this repository! 🙏*
 
