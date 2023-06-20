@@ -57,7 +57,7 @@ module.exports = {
         description: 'Start hacking on use case ideas you want to explore.',
         slug: '/developers',
       },
-      items: ['guides/features', 'guides/setup'],
+      items: ['guides/features', 'guides/setup', 'guides/create-collection'],
     },
   ],
   videoSidebar: [
