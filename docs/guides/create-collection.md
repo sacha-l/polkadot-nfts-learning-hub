@@ -19,8 +19,6 @@ We'll create a collection under the following settings:
 
 Start by importing `ApiPromise` and `KeyRing` from the Polkadot JS library in your local environment.
 
-Replace the contents in `index.ts` with:
-
 ```js
 // Import the API, Keyring and some utility functions
 const { ApiPromise } = require('@polkadot/api');
@@ -38,7 +36,6 @@ const keyring = new Keyring({ type: 'sr25519' });
 // Add Alice to our keyring with a hard-derivation path (empty phrase, so uses dev)
 const alice = keyring.addFromUri('//Alice');
 
-// Extrinsics and queries will go here
 ```
 
 ## Create a collection
@@ -46,9 +43,6 @@ const alice = keyring.addFromUri('//Alice');
 The following snippet constructs an extrinsic and signs it using the Alice account:
 
 ```js
-  // Get the next valid collection ID
-  const collectionId = await api.query.nft.nextCollectionId();
-
   // Create an extrinsic to create a collection with default settings
   const createCollection = await api.tx.nft.create(ALICE, 0x00);
   
@@ -63,7 +57,8 @@ The following snippet constructs an extrinsic and signs it using the Alice accou
 Create another extrinsic to set the collection's metadata:
 
 ```js
-  // Set metadata with metadata CID
+  // Set metadata for collection 0 with metadata CID
+  const collectionId = 0;
   const setCollectionMetadata = api.tx.nft.setCollectionMetadata(collectionId.toString(), 'QmY5GnoiANupwMbsLVaEa3YwjXKkKyvL4fCyAMRTTNqJNY')
   
   // Sign and send the transaction using the Alice account
@@ -78,7 +73,7 @@ Finally, to lock the metadata of a single item all we need to do is specify the 
 
 ```js
 const itemId = 1;
-const lockCollection = api.tx.nft.lockItemProperties(collectionId, itemId);
+const lockCollection = api.tx.nft.lockItemProperties(collectionId, itemId, true, false);
 
 // Sign and send the transaction using the Alice account
 const txHash = await lockCollection.signAndSend(alice);
@@ -86,52 +81,6 @@ const txHash = await lockCollection.signAndSend(alice);
 console.log('Metadata updated with transaction hash', txHash.toHex());
 ```
 
-## Full script
-
-Here's the full code you would have to run this as a script:
-
-```js
-// Import the API, Keyring and some utility functions
-const { ApiPromise } = require('@polkadot/api');
-const { Keyring } = require('@polkadot/keyring');
-
-// Addresses from our dev chain
-const ALICE = '5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY';
-
-async function main () {
-  // Instantiate the API
-  const api = await ApiPromise.create();
-
-  // Construct the keyring after the API (crypto has an async init)
-  const keyring = new Keyring({ type: 'sr25519' });
-
-  // Add Alice to our keyring with a hard-derivation path (empty phrase, so uses dev)
-  const alice = keyring.addFromUri('//Alice');
-
-  // Get the next valid collection ID
-  const collectionId = await api.query.nft.nextCollectionId();
-
-  // Create an extrinsic to create a collection with default settings
-  const createCollection = await api.tx.nft.create(ALICE, 0x00);
-  
-  // Sign and send the transaction using our account
-  const hash = await createCollection.signAndSend(alice);
-  
-  console.log('Collection created with id', collectionId.toString());
-
-  // Set metadata with metadata CID
-  const setCollectionMetadata = await api.tx.nft.setCollectionMetadata(collectionId.toString(), 'QmY5GnoiANupwMbsLVaEa3YwjXKkKyvL4fCyAMRTTNqJNY')
-  
-  // Sign and send the transaction using our account
-  const txHash = await setCollectionMetadata.signAndSend(alice);
-
-  console.log('Metadata updated with transaction hash', txHash.toHex());
-}
-
-main().catch(console.error).finally(() => process.exit());
-```
-
 Note that these series of transactions can be batched using the Utility pallet. Future guides will have these examples once [`#3`](https://github.com/sacha-l/substrate-nfts-node/issues/3) is closed.
 
 Continue onto learning how to configure specific minting settings for collections.
-
