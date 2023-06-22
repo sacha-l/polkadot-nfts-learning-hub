@@ -41,6 +41,9 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/sacha-l/polkadot-workshops/blob/main/',
+
+          // Configure MDX loader
+          include: ['**/*.md', '**/*.mdx'], // Include .mdx files
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +58,6 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
