@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="A learning hub for exploring use cases of the latest NFT tech on Polkadot">
+      description="A learning hub for exploring use cases for non-fungible assets on Polkadot">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

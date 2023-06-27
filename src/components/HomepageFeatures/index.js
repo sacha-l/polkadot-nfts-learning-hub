@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: 'none',
     description: (
       <>
-        This learning hubs aims to be a place to explore different use cases of NFTs on Statemine and between other app-chains, for end-users, businesses and collection creators.
+        This learning hubs aims to be a place to explore different use cases of non-fungible assets on Polkadot's Asset Hub and between other app-chains, for end-users, businesses and collection creators.
       </>
     ),
   },
@@ -18,7 +18,7 @@ const FeatureList = [
     description: (
       <>
         Hi my name is Sacha 👋 &mdash; I'm a Developer Advocate at Parity Technologies. I created this resource to 
-        help end-users and developers learn about the different NFT capabilities on Polkadot, with a particular 
+        help end-users and developers learn about the different ways to use non-fungible assets on Polkadot, with a particular 
         focus on FRAME's new NFTs pallet.
         Please note that this is a brand new resource, currently under construction. If there are any resources you'd
         like to see or updates to existing material, please consider contributing by filing an issue here: https://github.com/sacha-l/polkadot-nfts-learning-hub/issues.
