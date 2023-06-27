@@ -65,6 +65,6 @@ Item settings are defined by 3-bit values for:
 
 This is also the order of which bits each configuration corresponds to from right to left.
 
-For example, to lock the metadata of an item the item setting would be `2` or `010` in binary.
+For example, to lock the metadata of an item the item setting would be the integer `2` or `010` in binary.
 
 💡 Head to the [Codesandbox](./codesandbox.mdx) to play around with different collection settings you can make.
