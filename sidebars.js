@@ -59,6 +59,17 @@ module.exports = {
       },
       items: ['guides/features', 'guides/bitflags', 'guides/setup', 'guides/create-collection', 'guides/codesandbox'],
     },
+    {
+      type: 'category',
+      label: 'Ecosystem',
+      link: {
+        type: 'generated-index',
+        title: 'Ecosystem map',
+        description: 'A mapping of platforms for non-fungible applications on Polkadot.',
+        slug: '/ecosystem',
+      },
+      items: ['ecosystem/appchains', 'ecosystem/marketplaces'],
+    },
   ],
   videoSidebar: [
     'videos-for-users',
