@@ -6,8 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'A learning hub for NFT uses cases on Polkadot',
-  tagline: 'Curious how you can use the latest NFT tech on Polkadot?',
+  title: 'A learning hub for use cases of non-fungible assets on Polkadot',
   favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
