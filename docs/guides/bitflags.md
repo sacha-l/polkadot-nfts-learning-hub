@@ -10,13 +10,13 @@ You will need to learn how they work when creating applications that interact wi
 
 Collection settings are defined by a bit-field encoding information for:
 
-1. Item transferrability 
-2. Locking collection metadata
+1. Changing deposit requirements
+2. Modifying max supply
 3. Modifying attributes
-4. Modifying max supply
-5. Changing deposit requirements
+4. Locking collection metadata
+5. Item transferrability 
 
-This is also the order of which bits each configuration corresponds to from right to left.
+This is also the order of which bits each configuration corresponds to from left to right.
 
 For example, the corresponding binary value for a default collection setting is `00000` (or `0` as an integer). 
 
@@ -59,11 +59,11 @@ When creating a collection, you also can specify settings for individual items.
 
 Item settings are defined by 3-bit values for:
 
-1. Transferability (in the sense of freezing or unfreezing which could be changed by admin)
+1. Making attributes editable (this cannot be changed once set)
 2. Making metadata editable (this cannot be changed once set)
-3. Making attributes editable (this cannot be changed once set)
+3. Transferability (in the sense of freezing or unfreezing which could be changed by admin)
 
-This is also the order of which bits each configuration corresponds to from right to left.
+This is also the order of which bits each configuration corresponds to from left to right.
 
 For example, to lock the metadata of an item the item setting would be the integer `2` or `010` in binary.
 
