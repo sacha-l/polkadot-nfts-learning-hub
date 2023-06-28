@@ -12,3 +12,5 @@ The different roles a collection owner can configure include:
 - **Admin**: an entity that can update the metadata of a collection unless it is already locked.
 - **Freezer**: an entity with permission to freeze (and unfreeze) a collection, making items non-transferable.
 - **None**: if a collection has no roles set, the collection is created with no ability to update these roles in the future.
+
+🧑‍💻 Head to the [Code sandbox](../guides/codesandbox.mdx) to start trying out different settings.

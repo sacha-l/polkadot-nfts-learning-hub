@@ -14,3 +14,5 @@ There are 4 different types of such attributes:
 4. **External attributes**. These are attributes that an item owner can use to allow external services (for e.g oracles, smart contracts or another app-chain via governance) to store information in their item.
 
 These attribute types can unleash use cases for item holders to authorize applications to provide them with additional utility. For example, only items that have external attributes set by a specific oracle can be used in an application that requires that oracle.
+
+🧑‍💻 Head to the [Code sandbox](../guides/codesandbox.mdx) to start trying out different settings.
