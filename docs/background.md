@@ -8,6 +8,9 @@ In the Polkadot ecosystem there are primarily two approaches for creating, minti
 1. **Using smart contracts** (e.g. ERC-721, ERC-1155, PSP-34) and deploying them on EVM/Wasm compatible app-chains
 2. **Using app-chains**, i.e. chains that specialize in providing services for creating and managing non-fungible assets
 
+ ![Applayer](./assets/applayer-on-polkadot.png "Polkadot's Applayer Diagram")
+
+
 App-chains on Polkadot are built with [Substrate](https://docs.substrate.io) &mdash; a blockchain SDK built in Rust. More colloquially called Parachains, they contain custom low-level modules that when combined make up the overall business logic and services provided by the chain.
 
 Substrate has a framework to make it easy to create such modules, called [FRAME](https://github.com/paritytech/substrate/frame). 
