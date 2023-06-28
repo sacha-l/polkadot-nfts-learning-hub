@@ -19,9 +19,10 @@ module.exports = {
   // But you can create a sidebar manually
 
   tutorialSidebar: [
+    'background',
     {
       type: 'category',
-      label: 'Home',
+      label: 'NFTs Pallet Overview',
       link: {
         type: 'generated-index',
         title: 'About the NFTs pallet',
@@ -29,24 +30,12 @@ module.exports = {
         slug: '/',
       },
       items: [
-        'background',
         'about-nfts-pallet/design-and-core-features',
         'about-nfts-pallet/attribute-types',
         'about-nfts-pallet/settings-and-roles',
         'about-nfts-pallet/distribution-and-marketplaces',
       ],
       collapsed: false,
-    },
-    {
-      type: 'category',
-      label: 'Use cases',
-      link: {
-        type: 'generated-index',
-        title: 'Exploring use cases',
-        description: 'Explore the different use cases for the NFTs pallet on Polkadot.',
-        slug: '/use-cases',
-      },
-      items: ['use-cases/art', 'use-cases/certificates', 'use-cases/engagement', 'use-cases/advanced',],
     },
     {
       type: 'category',
@@ -69,6 +58,17 @@ module.exports = {
         slug: '/ecosystem',
       },
       items: ['ecosystem/appchains', 'ecosystem/marketplaces'],
+    },
+    {
+      type: 'category',
+      label: 'Use cases',
+      link: {
+        type: 'generated-index',
+        title: 'Exploring use cases',
+        description: 'Explore the different use cases for the NFTs pallet on Polkadot.',
+        slug: '/use-cases',
+      },
+      items: ['use-cases/art', 'use-cases/certificates', 'use-cases/engagement', 'use-cases/advanced',],
     },
   ],
   videoSidebar: [
