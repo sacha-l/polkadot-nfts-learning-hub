@@ -6,11 +6,11 @@ sidebar_position: 3
 The pallet introduces novel mechanisms for creating offers for collection owners.
 You can imagine marketplaces who provide services for anyone to bid on items of a collection.
 
-These bids can be done using Polkadot cheques &mdash; a unlimited collection created by the destined owner which acts 
+These bids can be done using Polkadot cheques &mdash; a unlimited collection that owners can use like writing a cheque as an offer to purchase an item from other collections.
 
 **Goal:** allow anyone to create offers using the cheque book onchain for the collection owner to approve, enforcing some incentive for the bidders to remove their offer later.
 
-Scenario: Charlie's eager to buy an item from Alice's collection so he provides her with an offer. She can choose to accept it or reject it. If the offer is accepted,
+**Scenario:** Charlie's eager to buy an item from Alice's collection so he provides her with an offer. She can choose to accept it or reject it. If the offer is accepted,
 
 Steps to test this use case out:
 
