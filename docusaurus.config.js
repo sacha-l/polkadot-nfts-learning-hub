@@ -40,6 +40,10 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/sacha-l/polkadot-workshops/blob/main/',
+          // Equivalent to `enableUpdateBy`.
+          showLastUpdateAuthor: true,
+          // Equivalent to `enableUpdateTime`.
+          showLastUpdateTime: true,
 
           // Configure MDX loader
           include: ['**/*.md', '**/*.mdx'], // Include .mdx files
