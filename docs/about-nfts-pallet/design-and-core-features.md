@@ -73,8 +73,7 @@ Item attributes can be read by smart contracts or other web applications to give
 
 ## Pre-signing
 
-Collection owners can create offers for addresses to buy an NFT without the need for a 3rd party. 
-This is achieved by providing a pre-signed offer &mdash; in other words a signature that authorizes another account to buy an item with a fixed price.
+Collection owners can pre-authorize certain accounts to mint items from their collection by pre-signing those items.
+The eligible accounts can then mint an item using the pre-signed approval.
 
-For example, a buyer can submit an offer to buy some item by providing a signature off-chain, or even on-chain using a System remark. If the seller agrees to the proposed price, the trade can be executed by providing the signed offer.
-This is particularly useful to enable novel [distribution mechanisms and uses cases for private marketplaces](distribution-and-marketplaces.md).
+Pre-signing can also be used in this way to update an item's attributes.
